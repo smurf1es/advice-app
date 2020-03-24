@@ -37,6 +37,9 @@ class App extends Component {
           </div>
           <div className="card">
             <h1 className="heading">{advice}</h1>
+            <button className="button" onClick={this.fetchAdvice}>
+              <span>Get me an advice</span>
+            </button>
           </div>
         </div>
       </Fragment>
